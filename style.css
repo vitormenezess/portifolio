@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.container{
+    background: #8AA6A3;
+}
+header {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.paragrafo-home{
+    font-weight: bold;
+    margin: 15px;
+    font-size: 2rem;
+}
+.title {
+  font-size: 1.3rem;
+  line-height: 25px;
+}
+.name {
+  display: flex;
+}
+.first-name {
+  font-weight: normal;
+}
+.last-name {
+  color: rgb(65, 65, 65);
+}
+.sub-title{
+    font-size: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 5px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    max-width: 90%;
+    margin: auto;
+}
+.primary-img{
+    min-width: 100px;
+    max-width: 300px;
+    margin: 50px;
+}
+
+.projeto-img{
+    min-width: 150px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+.section{
+    margin: 20px;
+}
+.sobre{
+    padding: 150px 20px;
+    background-color: white;
+}
+.projetos{
+    padding: 20px;
+}
+.btn{
+    background: #006b80;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+a:hover{
+    background: #006b80;
+}
+.btn:hover{
+    border: 2px solid;
+}
